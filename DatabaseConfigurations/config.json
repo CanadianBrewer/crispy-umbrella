@@ -1,0 +1,20 @@
+﻿{
+  "FooConfiguration": {
+    "Url": "https://www.google.com",
+    "Username": "rickpreston",
+    "Password": "Abcd1234!"
+  },
+  "BarConfiguration": {
+    "BaseUrl": "https://www.amazon.com",
+    "UserId": "Preston007",
+    "ApiKey": "06c14846-8db5-478f-b7d8-4f1304805546",
+    "CustomHeaderName": "X-Rick-Was-Here",
+    "CustomHeaderSalt": "5d7f42a2-695f-44cd-bbc5-00c20ce370e5"
+  },
+  "SerilogConfiguration": {
+    "Server": "ROCINANTE",
+    "Database": "Sandbox",
+    "UserId": "logger",
+    "Password": "P@ssw0rd^"
+  }
+}

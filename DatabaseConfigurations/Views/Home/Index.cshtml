@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Database Configurations";
+}
+
+<div class="jumbotron">
+    <p>Individual service configurations are extracted from the database via an API call. Those are just JSON strings returned to the web app, so a config.json file mimics that in this demo. The JSON is parsed into service-specific config POCOs and added to an in-memory cache (ConfigurationCacheService).</p>
+    <p>The CacheHandler controls access to the cache and is injected into each controller so that it may retrieve it's own configurations.</p>
+    <p>Use the <a href="@Url.RouteUrl("foo-configs")">Foo Configuration</a> and <a href="@Url.RouteUrl("bar-configs")">Bar Configuration</a> links above to retrieve and display those configurations.</p>
+</div>
+

@@ -1,0 +1,16 @@
+﻿@model DatabaseConfigurations.Models.BarConfiguration
+@{
+    ViewBag.Title = "Database Configurations";
+}
+
+<div class="jumbotron">
+    <h2>Bar Configurations</h2>
+    <div style="margin-top: 48px;">
+        <p>BaseUrl: @Model.BaseUrl</p>
+        <p>UserId: @Model.UserId</p>
+        <p>ApiKey: @Model.ApiKey</p>
+        <p>CustomHeaderName: @Model.CustomHeaderName</p>
+        <p>CustomHeaderSalt: @Model.CustomHeaderSalt</p>
+    </div>
+</div>
+
